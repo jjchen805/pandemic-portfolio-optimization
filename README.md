@@ -18,10 +18,12 @@ The total S&P 500 return during the pandemic is 36.19%. The best-performing stoc
 $5.40 + 0.03 \cdot \log(\text{new cases}) + 0.14 \cdot \log(\text{ten yr rate})$   
 
 The coefficients suggest that the two independent variables are positively related to the stock price. R-squared 0.531 represents approximately 53.1% of the variance in the dependent variable is explained by the independent variables.  
-![OLS-image](OLS-results.png)
+![OLS-image](OLS-Results.png)
 
 
 **2. Data clustering:** Cluster the data using different methods (Hierarchical Clustering or K-means clustering) and observe the construction of each cluster. What industry accounts for the largest share in each cluster? How many observations are in each cluster, and how did each cluster perform differently during the pandemic?  
+
+The following graph shows the construction of 4 clusters.  
 
 After comparing the clusters using two different methods, I found that they generated similar results. Cluster 0 has 211 stocks, with the Technology and Industrial sectors having the largest share. Consumer Cyclical sector and Healthcare sector combined to account for 25% of the cluster. Cluster 0 demonstrates an average monthly return of 1.4% during the pandemic. Cluster 1 has 161 stocks, with the Financial Services sector accounting for the largest portion of this cluster. Cluster 1 demonstrates an average monthly return of 0.942% during the pandemic. Cluster 2 has 102 stocks in cluster 2. Healthcare sector, Utilities sector, and Consumer Defense sector account for 26.5%, 23.5%, and 22.5% of the cluster, respectively. Cluster 2 demonstrates an average monthly return of 0.773% during the pandemic and it is the most stable cluster. Cluster 3 has 24 stocks, with Energy and Consumer Cyclical being the only two sectors in this cluster. Cluster 3 demonstrates an average monthly return of 2.53% during the pandemic and it is the most volatile cluster.
 
