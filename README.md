@@ -1,6 +1,7 @@
 # Pandemic Portfolio Optimization
 
-The purpose of this project is to analyze the impact of the COVID-19 pandemic on stock performance within the S&P 500 index and to develop data-driven strategies for portfolio optimization based on clustering and machine learning techniques. By integrating multiple datasets, including COVID-19 case data, stock price information, and financial metrics, the project aims to understand how pandemic-related factors influenced stock prices and how investors could use these insights to make informed decisions. 
+The purpose of this project is to analyze the impact of the COVID-19 pandemic on stock performance within the S&P 500 index and to develop data-driven strategies for portfolio optimization based on clustering and machine learning techniques. By integrating multiple datasets, including COVID-19 case data, stock price information, and financial metrics, the project aims to understand how pandemic-related factors influenced stock prices and how investors could use these insights to make informed decisions.  
+![sp-500-index](sp-500-index.jpg)
 ## Data Setting 
 
 **1. Data on COVID-19:** This dataset includes the COVID-19 cases and deaths in 207 countries from December 2019 to October 2023. I want to observe how COVID-19 originating from Asia affects the US stock market and how the stock price was correlated with the COVID-19 numbers.  
