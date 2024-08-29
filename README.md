@@ -18,6 +18,7 @@ The total S&P 500 return during the pandemic is 36.19%. The best-performing stoc
 $5.40 + 0.03 \cdot \log(\text{new cases}) + 0.14 \cdot \log(\text{ten yr rate})$   
 
 The coefficients suggest that the two independent variables are positively related to the stock price. R-squared 0.531 represents approximately 53.1% of the variance in the dependent variable is explained by the independent variables.  
+![OLS-image](OLS-results.png)
 
 
 **2. Data clustering:** Cluster the data using different methods (Hierarchical Clustering or K-means clustering) and observe the construction of each cluster. What industry accounts for the largest share in each cluster? How many observations are in each cluster, and how did each cluster perform differently during the pandemic?  
